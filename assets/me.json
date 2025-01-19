@@ -1,0 +1,21 @@
+{
+  "lastName": "Tabary",
+  "firstName": "Damien",
+  "job_title": "Développeur Fullstack",
+  "email": "damien.tabary@hotmail.com",
+  "phone": "0606732556",
+  "github": "http://www.github.com/Damtab83",
+  "linkedin": "http://www.linkedin.com/in/damien-tabary",
+  "photo": "img/",
+  "photo_description": "Photo de Damien",
+  "city": "Six-fours-les-plages",
+  "departement": "83",
+  "softskills": [
+    "Curieux",
+    "Organisé",
+    "Esprit critique",
+    "Motivé",
+    "Persévérant"
+  ],
+  "description": "Après une reconversion, je me présente à vous comme Développeur Fullstack. Je suis motivé et persévérant.Et c'est grâce à cela que j'ai pu conciller mon travaille avec ma formation. Ce n'est jamais simple de parler de soit, mais si vous voulez mieux me connaitre, je suis à votre disposition."
+}

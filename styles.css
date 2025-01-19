@@ -2,10 +2,10 @@
 body {
   background-color: #363b40;
 }
-.bgc {
+.main-content {
   background-color: grey;
   width: 95vw;
-  height: 90vh;
+  height: 80vh;
 }
 .bgr1 {
   background-color: green;

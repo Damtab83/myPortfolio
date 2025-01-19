@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="./styles.css" />
+    <title>Mentions légales | Portfolio de Damien Tabary</title>
+    <link rel="stylesheet" href="../assets/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="../styles.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
@@ -30,22 +30,34 @@
               <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./pages/projets.html">Projets</a>
+              <a class="nav-link" href="./projets.html">Projets</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./pages/diplomes.html">Diplômes</a>
+              <a class="nav-link" href="./diplomes.html">Diplômes</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="container main-content">
-      Le container
-      <div class="row bgr1">La row</div>
-      <div class="row bgr2">La row</div>
-      <div class="row bgr3">La row</div>
-    </div>
+    <div class="container main-content text-light rounded">
+      <h1 class="text-center my-3 py-2 fs-1">Mentions Légales</h1>
 
+      <h2 class="fs-6 mt-2">IDENTIFICATION DE L'EDITEUR</h2>
+      <pre class="text-wrap fs-6 mb-2 py-2">
+          Le site "Portfolio de <span id="firstName"></span> <span id="lastName"></span>", accessible à l'adresse "damien.tabary.portfolio.free.fr". 
+          Ce site est un Portfolio personnel n'ayant pour objectif que de vendre mes compétences et 
+          mes connaissances. Les projets présentés sont des projets personnels ou effectués dans le 
+          cadre de la formation que j'ai effectué. Ces projets ne font en aucun cas partie d'une 
+          Application Web d'une enteprise réelle.
+        </pre>
+      <h2 class="fs-6 mt-2">HEBERGEUR DU SITE INTERNET</h2>
+      <pre class="text-wrap fs-6 pt-2">
+            Ce site Portfolio est hébergé par FREE 
+            Free – Service Abonnés - 75371 Paris Cedex 08
+            L'hébergeur est joignable au numéro suivant : 32 44 ou au 01 78 56 95 60
+        </pre
+      >
+    </div>
     <footer
       class="d-flex flex-wrap justify-content-between align-items-center py-2 my-4"
     >
@@ -53,7 +65,7 @@
         class="nav col-md-4 justify-content-evenly mx-auto list-unstyled d-flex"
       >
         <li class="ms-3">
-          <a class="text-body-secondary" href="./pages/mentions_legales.html"
+          <a class="text-body-secondary" href="./mentions_legales.html"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -101,7 +113,7 @@
           ></a>
         </li>
         <li class="ms-3">
-          <a class="text-body-secondary" href="./pages/contact.html"
+          <a class="text-body-secondary" href="./contact.html"
             ><svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -132,7 +144,7 @@
         </li>
       </ul>
     </footer>
-    <script src="./assets/bootstrap/bootstrap.min.js"></script>
-    <script type="module" src="./assets/app.js"></script>
+    <script src="../assets/bootstrap/bootstrap.min.js"></script>
+    <script type="module" src="../assets/app.js"></script>
   </body>
 </html>
