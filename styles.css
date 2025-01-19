@@ -1,0 +1,28 @@
+@import url("./assets/base/reset.css");
+body {
+  background-color: #363b40;
+}
+.bgc {
+  background-color: grey;
+  width: 95vw;
+  height: 90vh;
+}
+.bgr1 {
+  background-color: green;
+  width: 150px;
+  height: 150px;
+}
+.bgr2 {
+  background-color: blue;
+  width: 150px;
+  height: 150px;
+}
+.bgr3 {
+  background-color: pink;
+  width: 150px;
+  height: 150px;
+}
+
+footer ul li {
+  margin: 0 20px;
+}
